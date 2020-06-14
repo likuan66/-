@@ -1,0 +1,14 @@
+
+<view class="hr"></view>
+<view class='item'>
+  <navigator url="/pages/aboutAs/aboutAs" class="title">关于我们</navigator>
+  <view class="detail2">
+  </view>
+</view>
+<view class="item">
+  <navigator url="/pages/feedback/feedback" class="title">意见反馈</navigator>
+  <view class="detail2">
+  </view>
+</view>
+
+

@@ -1,0 +1,23 @@
+
+<view class="enroll">
+	<!-- 输入框开始 -->
+	<input id="name" placeholder="请输入用户名" type="text" placeholder-class="plas" bindblur="usernameInput"></input>
+	<view class='row'>
+  	<input id="number" placeholder='请输入手机号' placeholder-class="plas" bindinput='bindPhoneInput'/>
+	</view> 
+  <view class='row'>
+     <input placeholder='请输验证码' placeholder-class="plas" bindinput='bindCodeInput' style='width:70%;'/> 
+     <button class='codeBtn' bindtap='getCode' hidden='{{hidden}}' disabled='{{btnDisabled}}'>{{btnValue}}</button>
+  </view>
+	<input id="password" placeholder="请输入密码" type="password" placeholder-class="plas" bindblur="passwordInput"></input>
+	<input id="passwordack" placeholder="重新输入密码" type="password" placeholder-class="plas" bindblur="passwordInputAck"></input>
+	<!-- 输入框结束 -->
+	<!-- 注册按钮开始 -->
+	<view class="register_btn_area btn_area">
+		<button class="register_btn" type="warn" catchtap="registerbtn">注册</button>
+	</view>
+	<!-- 注册按钮结束 -->
+	<!-- 已注册文字开始 -->
+	<text class="login_txt" catchtap="f0">已有账号，点我登录</text>
+	<!-- 已注册文字结束 -->
+</view>

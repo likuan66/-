@@ -1,0 +1,148 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useCompilerModule": false,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.11.1",
+	"appid": "wxd1951d106e5d59c5",
+	"projectname": "school_canteen",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/load/load",
+					"pathName": "pages/load/load",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/admin/admin",
+					"pathName": "pages/admin/admin",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/orderitem/orderitem",
+					"pathName": "pages/orderitem/orderitem",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/order/order",
+					"pathName": "pages/order/order",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/enroll/enroll",
+					"pathName": "pages/enroll/enroll",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/login/login",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/visitorLogin/visitorLogin",
+					"pathName": "pages/visitorLogin/visitorLogin",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/menu/menu",
+					"pathName": "pages/menu/menu",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/logs/logs",
+					"pathName": "pages/logs/logs",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/menu/menu",
+					"pathName": "pages/menu/menu",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/orderfood/orderfood",
+					"pathName": "pages/orderfood/orderfood",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/feedback/feedback",
+					"pathName": "pages/feedback/feedback",
+					"scene": null
+				}
+			]
+		}
+	}
+}

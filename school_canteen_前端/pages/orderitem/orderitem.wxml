@@ -1,0 +1,34 @@
+<view class="container">
+	<view class="navbar">{{window_name}}</view>
+	<view class="main">
+		<view class="main-right">
+			<view wx:for="{{dishes}}" wx:for-item="dish" class="dishes">
+				<view class="dishes-left">
+					<image src="{{dish.food_picture}}"></image>
+				</view>
+				<view class="dishes-right">
+					<text class="dish-name" style="font-size:20px;color:red">{{dish.food_name}}</text>
+					<text class="dish-price">{{dish.food_price}}元</text>
+					<view class='item-center'>
+					　　<button class="btn-minus" disabled="{{minusStatus}}" plain='ture' bindtap='minusNum' data-indexs="{{index}}" data-pricex="{{dish.food_price}}">-</button>
+					　　<input class='buy-num-txt' name='food_num' type='number' value='{{food_price[index]}}'></input>
+					　　<button class="btn-add" plain='ture' bindtap='addNum' data-indexs="{{index}}" data-pricex="{{dish.food_price}}">+</button>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="tabbar">
+		<view class="cart-image">
+    <image src="/Images/shopping.jpg"></image>
+		</view>
+		<view class="cart">
+			<text>￥{{order_price}}元</text>
+			<text>配送费：2元</text>
+		</view>
+		<view class="cart-submit">
+      <button bindtap='ToPay'>去结账</button>
+		</view>
+	</view>
+	<view style="height:80px"></view>
+</view>

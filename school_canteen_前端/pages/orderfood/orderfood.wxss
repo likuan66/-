@@ -1,0 +1,118 @@
+/* 容器样式开始 */
+.container{
+  display: flex;
+  width: 100%;
+  /* height: 900rpx; */
+  /* border: 1px solid red; */
+  flex-direction: column;
+  /* margin-top: -100rpx; */
+  /* align-items: flex-start; */
+}
+/* 容器样式结束 */
+/* 顶部样式开始 */
+.navbar{
+  /* border: 1px solid greenyellow; */
+  width: 100%;
+  height: 50rpx;
+  margin: 25rpx auto;
+  margin-bottom: 60rpx;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50rpx;
+  border-bottom: 3rpx solid #8a8a8a;
+  padding-bottom: 20rpx;
+  /* background-color: red; */
+}
+/* 顶部样式结束 */
+/* 主体样式开始 */
+.main{
+  /* border: 1px solid blue; */
+  width: 100%;
+  /* height: 800rpx; */
+  display: flex;
+}
+
+/* 主题样式结束 */
+
+.main-left{
+  width: 150rpx;
+  /* height: 800rpx; */
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-right{
+  width: 380px;
+  margin-left: 50rpx; 
+  /* height: 800rpx; */
+  /* border: 1px solid aqua; */
+}
+
+.dishes{
+  border: 1px solid #8a8a8a;
+  border-radius: 5px;
+  width: 600rpx;
+  height: 200rpx;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25rpx;
+}
+.dishes-left image{
+   width: 200rpx;
+   height: 200rpx;
+}
+
+.dishes-right{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/* 底部样式开始 */
+.tabbar{
+  width: 100%;
+  height: 150rpx;
+  /* border: 1px solid aqua; */
+  display: flex;
+  align-items: flex-end;
+  position: fixed;
+  bottom: 1px;
+  background: white;
+  z-index: 999;
+}
+
+.cart-image{
+  flex: 2;
+}
+
+.cart-image image{
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.cart{
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-submit>button{
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+/* 底部样式结束 */
+.item-center{
+  margin-right: 50rpx;
+  height: 50rpx;
+  display: flex;
+  flex-direction: row;
+  flex:right;
+}
+.item-center button{
+  height: 50rpx;
+  line-height: 50rpx;
+}
+

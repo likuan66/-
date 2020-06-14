@@ -1,0 +1,39 @@
+/* pages/load/load.wxss *//* pages/load/load.wxss */
+.user-info{
+  margin-top: 300rpx;
+}
+
+
+#user-info{
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 10rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 100rpx;
+  text-align: center;
+}
+.med{
+  color: #8a8a8a;
+  text-align: center;
+  font-size: 40rpx;
+  margin-bottom: 20rpx;
+}
+.but{
+  width: 300rpx;
+  color: white;
+  background-color: #04be01;
+  border-radius: 10rpx;
+  align-content: center;
+  text-align: center;
+}
+.txt{
+  color: #8a8a8a;
+  width: 82%;
+  margin: 0 auto;
+  font-size: 32rpx;
+  font-weight: 10rpx;
+  margin-top: 20rpx;
+}

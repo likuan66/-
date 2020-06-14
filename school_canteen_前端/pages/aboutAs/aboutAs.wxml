@@ -1,0 +1,5 @@
+<!--pages/aboutAs/aboutAs.wxml-->
+<text decode="{{true}}" >
+  &nbsp;&nbsp;我们所做的一切都是为了客户的需求，给客户带来方便与安全，对于我们来说就是最大的肯定。
+</text>
+

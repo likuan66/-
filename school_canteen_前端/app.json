@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/load/load",
+    "pages/feedback/feedback",
+    "pages/aboutAs/aboutAs",
+    "pages/visitorLogin/visitorLogin",
+    "pages/enroll/enroll",
+    "pages/orderitem/orderitem",
+    "pages/order/order",
+    "pages/menu/menu",
+    "pages/login/login",
+    "pages/otherservice/otherservice",
+    "pages/admin/admin",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/orderfood/orderfood"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00B26A",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/menu/menu",
+        "iconPath": "/Images/icon/home.png",
+        "selectedIconPath": "/Images/icon/home1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "/Images/icon/ding.png",
+        "selectedIconPath": "/Images/icon/ding1.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/otherservice/otherservice",
+        "iconPath": "/Images/icon/another.png",
+        "selectedIconPath": "/Images/icon/another1.png",
+        "text": "其他服务"
+      }
+    ],
+    "ext-class": "sss"
+  },
+  "sitemapLocation": "sitemap.json"
+}

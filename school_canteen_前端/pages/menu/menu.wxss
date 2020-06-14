@@ -1,0 +1,150 @@
+/* 轮播图样式开始 */
+.banner {
+  height: 295rpx;
+  width: 100%;
+}
+
+.banner image {
+  height: 295rpx;
+  width: 100%;
+}
+/* 轮播图样式结束 */
+
+/* 下拉菜单样式开始 */
+.function-btn {
+
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+}
+
+.function-button {
+  width: 230rpx;
+  font-size: 24rpx;
+}
+
+#select-dini {}
+
+.select-dini-downlist {
+  font-size: 14rpx;
+  z-index: 2;
+  display: none;
+}
+
+.select-dini-downlist>button {
+  font-size: 24rpx;
+}
+
+.select-dini:hover .select-dini-downlist {
+  position: absolute;
+  width: 230rpx;
+  display: block;
+}
+.select-dini:hover .select-dini-downlist-new{
+  display: none;
+}
+/* .select-dini:hover .select-dini-downlist-new{
+  font-size: 14rpx;
+  z-index: -2;
+  display: block;
+  position: absolute;
+  width: 230rpx;
+}
+.select-dini-downlist-new>button {
+  font-size: 24rpx;
+} */
+
+
+
+#select-floor {}
+
+.select-floor-downlist {
+  z-index: 2;
+  font-size: 24rpx;
+  display: none;
+}
+
+.select-floor-downlist>button {
+  font-size: 24rpx;
+}
+
+.select-floor:hover .select-floor-downlist {
+  position: absolute;
+  width: 230rpx;
+  display: block;
+}
+
+#select-time {
+  width: 300rpx;
+  /* font-size: 24rpx; */
+}
+
+.select-time-downlist>button {
+  font-size: 24rpx;
+}
+
+.select-time-downlist {
+  z-index: 2;
+  font-size: 24rpx;
+  display: none;
+}
+
+
+
+.select-time:hover .select-time-downlist {
+
+  position: absolute;
+  width: 300rpx;
+  display: block;
+}
+/* 下拉菜单样式结束 */
+
+/* 位置信息显示样式开始 */
+#remain-position {
+  /* font-size: 24rpx; */
+  /* display: block; */
+  margin-top: 15rpx;
+}
+/* 位置信息显示样式结束 */
+
+/* 窗口样式开始 */
+.windows-eat-item{
+  margin-top: 30rpx;
+  display: flex;
+}
+
+.windows-eat-image{
+  width: 450rpx;
+  height: 260rpx;
+}
+
+.windows-eat-item-hover{
+  background-color: #ccc;
+}
+/* 窗口样式结束 */
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 40rpx;
+}
+
+.info-name{
+  font-weight: bold;
+  font-size: 50rpx;
+  color: red;
+}
+/* .sa{
+  position: fixed;
+  width: 200rpx;
+  height: 200rpx;
+  top: 300rpx;
+  left: 0rpx;
+  z-index: 2;
+  background-color: red;
+}
+.sa:hover{
+  display: none;
+} */

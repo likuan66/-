@@ -1,0 +1,23 @@
+{
+  "usingComponents": {
+    "tabbar":"/conponents/tabbar/tabbar"
+  },
+  "navigationBarTitleText": "订单",
+  "tabBar":{
+    "backgroundColor":"#FFFFFF",
+    "list":[
+      {
+        "pagePath":"pages/admin/admin",
+        "iconPath": "/Images/icon/ding.png",
+        "selectedIconPath": "/Images/icon/ding1.png",
+        "text":"订单管理"
+      },
+      {
+        "pagePath":"pages/admin/admin",
+        "iconPath": "/Images/icon/another.png",
+        "selectedIconPath": "/Images/icon/another1.png",
+        "text":"菜单管理"
+      } 
+    ]
+  }
+}

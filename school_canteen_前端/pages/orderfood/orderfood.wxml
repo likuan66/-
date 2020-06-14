@@ -1,0 +1,16 @@
+<view class="container">
+	<view class="navbar">{{window_name}}</view>
+	<view class="main">
+		<view class="main-right">
+			<view wx:for="{{dishes}}" wx:for-item="dish" class="dishes">
+				<view class="dishes-left">
+					<image src="{{dish.food_picture}}"></image>
+				</view>
+				<view class="dishes-right">
+					<text class="dish-name" style="font-size:20px;color:red">{{dish.food_name}}</text>
+					<text class="dish-price">{{dish.food_price}}元 * {{dish.food_num}}</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

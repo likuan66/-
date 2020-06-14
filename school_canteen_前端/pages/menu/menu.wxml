@@ -1,0 +1,75 @@
+<!--pages/menu/menu.wxml-->
+<view>
+	<!-- <view class="sa">扫一扫
+	</view> -->
+	<!-- 轮播图开始 -->
+	<swiper class="banner" autoplay interval="2000" circular next-margin="20rpx" indicator-dots indicator-color="#3AC48C" indicator-active-color="#fff">
+		<swiper-item>
+			<image src="/Images/11.jpg"></image>
+		</swiper-item>
+
+		<swiper-item>
+			<image src="/Images/12.jpg"></image>
+		</swiper-item>
+
+		<swiper-item>
+			<image src="/Images/13.jpg"></image>
+		</swiper-item>
+		<swiper-item>
+			<image src="/Images/14.jpg"></image>
+		</swiper-item>
+	</swiper>
+	<!-- 轮播图结束 -->
+	<view class="function-btn">
+		<view class="select-dini">
+			<button id="select-dini" type="primary" class="function-button">{{canteen}}</button>
+			<view class="select-dini-downlist {{canteen_class}}">
+			<!-- <view class="{{canteen_class}}"> -->
+				<button catchtap="canteen0">新食堂</button>
+				<button catchtap="canteen1">旧食堂</button>
+			</view>
+		</view>
+		<view class="select-floor">
+			<button id="select-floor" type="primary" class="function-button">{{tier}}</button>
+			<view class="select-floor-downlist">
+				<button catchtap="floor0">一楼</button>
+				<button catchtap="floor1">二楼</button>
+				<button catchtap="floor2">三楼</button>
+			</view>
+		</view>
+		<view class="select-time">
+			<button id="select-time" type="primary" class="function-button">{{time}}</button>
+			<view class="select-time-downlist">
+				<button catchtap="period0">时间段11：30-12：00</button>
+				<button catchtap="period1">时间段12：00-12：30</button>
+				<button catchtap="period2">时间段12：30-13：00</button>
+				<button catchtap="period2">时间段13：00-13：30</button>
+				<button catchtap="period2">时间段13：30-14：00</button>
+			</view>
+		</view>
+
+
+	</view>
+	<view>
+		<button catchtap="getButtonWindewsList">查询</button>
+	</view>
+	<text id="remain-position">当前剩余位置:{{remainPosition}}</text>
+
+	<!-- 窗口信息显示开始 -->
+	<view class="video-wrap">
+		<view class="windows-eat" wx:for="{{windowsList}}" bindtap="select">
+			<navigator url="../orderitem/orderitem?id={{item.window_id}}" class="windows-eat-item" hover-class="windows-eat-item-hover" >
+				<image src="{{item.window_picture}}" class="windows-eat-image"></image>
+				<view class="info">
+					<text class='yuzhong'>{{item.window_num}}号窗口</text>
+					<text class='info-name'>{{item.window_name}}</text>
+				</view>
+			</navigator>
+		</view>
+	</view>
+	<!-- 窗口信息显示结束 -->
+</view>
+
+<view style="position:fix;bottom:0;left:0;width:100%">
+	<tabbar class="tabbar" id="myTabbarId" default-show-index="{{ defaultShowIndex }}" bind:myTabbarEvent="popBaitiaoView"></tabbar>
+</view>

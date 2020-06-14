@@ -1,0 +1,55 @@
+/* pages/register/register.wxss *//* pages/enroll/enroll.wxss *//* pages/enroll/enroll.wxss */
+/* 输入框样式开始 */
+.enroll input{
+  /* border: 1px solid black; */
+  margin-top: 20rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  padding: 20rpx 0 5rpx 0;
+  background-color: #f7f1f1;
+}
+
+.plas{
+  margin-left: 20rpx;
+  color: #ccc;
+}
+/* 输入框样式结束 */
+
+/* 注册按钮样式开始 */
+.register_btn_area{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  
+}
+.register_btn{
+  color: white;
+  font-weight: bold;
+  font-size: 35rpx;
+  height: 100rpx;
+  width: 95%;
+  background-color:  #ff9999;
+  margin-top: 50rpx;
+  margin-bottom: 30rpx;
+  padding-top: 10rpx;
+  text-align: center;
+}
+.register_btn_hover{
+  background-color: red;
+}
+/* 注册按钮样式结束 */
+
+/* 已注册文字链接样式开始 */
+.login_txt{
+  color:  #8c8c8c;
+  font-size: 25rpx;
+  margin-left: 5%;
+  
+}
+.login_txt:hover{
+  color: black;
+
+}
+
+
+/* 已注册文字链接样式结束 */

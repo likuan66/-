@@ -1,0 +1,10 @@
+<view class="my-tabbar-wrap">
+  <view class="{{defaultShowIndex===0?'tabbar-active tabbar-item':'tabbar-item'}}" data-index="0" bindtap="myTabbarEvent">
+    <view><image src="/Images/icon/ding.png"></image></view>
+    <view class="item-text">订单管理</view>
+  </view>
+  <view class="{{defaultShowIndex===1?'tabbar-active tabbar-item':'tabbar-item'}}" data-index="1" bindtap="myTabbarEvent">
+    <view><image src="/Images/icon/another.png"></image></view>
+    <view class="item-text">菜单管理</view>
+  </view>
+</view>

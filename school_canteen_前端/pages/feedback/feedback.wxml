@@ -1,0 +1,6 @@
+
+<textarea class="detailText" placeholder="请输入你的意见" bindinput="bindTextAreaBlur">
+    
+</textarea>
+
+<button type="primary" bindtap="Tosay">提交</button>

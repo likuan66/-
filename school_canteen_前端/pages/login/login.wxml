@@ -1,0 +1,15 @@
+<!--pages/login/login.wxml-->
+<view>
+    <view class="imagesize"> 
+          <image src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1589803012&di=c4a43e36b12f675947aa43bb12ee82f2&src=http://www.boruisz.com/images/meys4yluoqxgq5len5xgoltdn5wq/58/96/19300030178035131976961485456_s.jpg" class="in-image"></image>
+    </view> 
+    <view class="image">
+          <image src="http://haizi.name/images/j2xml/8336d3ce43750e52234ac13c80f5d2ec.jpg"></image>
+    </view>
+     <button class='click-btn' type='primary' catchtap='joinPage'>
+      立即点餐
+      </button>
+      <button class='click-btn1' type='warn' catchtap='joinPage1'>
+      管理员模式
+      </button>
+ </view>

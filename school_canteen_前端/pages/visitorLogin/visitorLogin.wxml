@@ -1,0 +1,15 @@
+<!--pages/enroll/enroll.wxml-->
+<view class="enroll">
+	<!-- 输入框开始 -->
+	<input id="number" placeholder="手机号" type="number" placeholder-class="plas" bindblur="phonenumberInput"></input>
+	<input id="password" placeholder="请输入密码" type="password" placeholder-class="plas" bindblur="passwordInput"></input>
+	<!-- 输入框结束 -->
+	<!-- 登录按钮开始 -->
+	<view class="register_btn_area btn_area">
+		<button class="register_btn" type="warn" catchtap="registerbtn">登录</button>
+	</view>
+	<!-- 登录按钮结束 -->
+	<!-- 未注册文字开始 -->
+	<text class="login_txt" catchtap="f0">没有账号，点我注册</text>
+	<!-- 未注册文字结束 -->
+</view>

@@ -1,0 +1,27 @@
+.my-tabbar-wrap{
+  height: 50px;
+  width: 100%;
+  border-top: 1rpx solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my-tabbar-wrap .tabbar-item{
+  width: 50%;
+  height: 50px;
+  color: fff;
+  text-align: center;
+}
+.my-tabbar-wrap .tabbar-item image{
+  /* display: block; */
+  width: 24px;
+  height: 24px;
+  margin-top: 7px;
+  margin-bottom: -5px;
+}
+.tabbar-active .item-text{
+  color: rgb(46, 104, 212);
+}
+.item-text{
+  font-size: 30rpx;
+}
